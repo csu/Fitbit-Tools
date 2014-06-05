@@ -3,7 +3,12 @@
 
 Calculates sleep debt using sleep records from the Fitbit API
 
-#### Todo
+### Tools
+| File | Description |
+| :--- | :----- |
+| `calculate_sleep_debt.py` | Has a CLI interface. Observes time slept in the past 7 days and asks user for target sleep time. Then calculates difference between actual and goal values. |
+
+### Todo
 * Create REST API for accessing sleep over a list of dates and calculating differences in goal total and real total sleep times
 * Create GUI in flask or something to easily view statistics in a web browser
 * Add more options for the date range to use
